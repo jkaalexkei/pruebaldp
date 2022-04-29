@@ -1,0 +1,64 @@
+.section__seccionnosotros{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.section__seccionnosotros__article{
+    width: 100%;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section__seccionnosotros__article__div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__seccionnosotros__article__div__h3{
+    
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+.section__seccionnosotros__article__div__p{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.section__seccionnosotros__article__div__button{
+    color: #3b4319;
+    border: none;
+    box-shadow: 10px 1px 20px #3b4319;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #b2cb3f;
+    width: 40%;
+    
+    padding: 10px;
+    margin-top: 25px;
+    
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.section__seccionnosotros__article__img{
+    box-shadow: 1px 1px 8px 3px #646464;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
